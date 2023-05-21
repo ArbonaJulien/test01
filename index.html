@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lexend&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Entre-Prises</title>
+</head>
+<body>
+    <div class="topScreen">
+
+        <header>
+            <div class="wrapper">
+                <div class="logo"><a href="#" onclick="closeMobileMenu()">entre-prises</a></div>
+                
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a href="#offers" class="link">Nos offres</a></li>
+                        <li><a href="#about" class="link">A propos</a></li>
+                        <li><a href="#step-1" class="link">Notre service</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-bar--mobile">
+                    <input type="checkbox" name="nav-bar--mobile__checkbox" id="nav-bar--mobile__checkbox" onchange="toggleMobileMenu();">
+                    <label for="nav-bar--mobile__checkbox" class="nav-bar--mobile__btn" onclick="openMobileMenu()">
+                        <span class="nav-bar--mobile__btn__line"></span>
+                        <span class="nav-bar--mobile__btn__line"></span>
+                        <span class="nav-bar--mobile__btn__line"></span>
+                    </label>
+                    <ul class="nav-bar--mobile__menu">
+                        <li><label for="navbar-checkbox"><a href="#offers"  class="link" onclick="closeMobileMenu()">Nos offres</a></label></li>
+                        <li><label for="navbar-checkbox"><a href="#about"  class="link" onclick="closeMobileMenu()">A propos</a></label></li>
+                        <li><label for="navbar-checkbox"><a href="#step-1"  class="link" onclick="closeMobileMenu()">Notre service</a></label></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="hero-section">
+            <div class="wrapper">
+                <div class="hero-section__content">
+                    <div class="hero-section__content__text">
+                        <h1>Concrétiser votre projet,<br>c’est notre métier</h1>
+                        <p>Montez un business plan complet et de qualité,<br>sans efforts grâce à notre expertise</p>
+                    </div>
+                    <button class="hero-section__content__cta" onclick="window.location.replace('#step-1')">Découvrir notre service</button>
+                </div>
+                <div class="hero-section__picture">
+                    <img src="assets/hero-section_image.png" alt="Hero section image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="banner"></div>
+    </div>
+        
+    <div class="step-1">
+        <div class="anchor" id="step-1"></div>
+        <div class="wrapper">
+            <div class="step-1__picture">
+                <img src="assets/step1_image.png" alt="Picture">
+            </div>
+            <div class="step-1__content">
+                <h2>Simplifiez la création de votre entreprise</h2>
+                <p>Pendant que vous vous occupez de la préparation ou de la concrétisation de votre projet, nous travaillions d’arrache pied pour monter un business plan de qualité, qui vous ressemble où un potentiel financeur se dise « Wow ! »</p>
+            </div> 
+        </div>
+    </div>
+
+    <div class="step-2">
+        <div class="wrapper">
+            <h2>Pourquoi nous prendre à vos côtés ?</h2>
+            <p>Nous savons que la rédaction d'un business plan est une étape nécessaire mais lourde pour concrétiser votre projet d'entreprise. Notre équipe est là pour vous libérer du temps et vous permettre de vous concentrer sur ce qui compte vraiment pour vous : trouver des financeurs, anticiper la mise en place de votre activité, vous former et vous préparer à cette transition vers une nouvelle vie.</p>
+
+            <div class="step-2__cards">
+                <div class="step-2__cards__row">
+                    <div class="step-2__cards__row__card">
+                        <h3 class="step-2__cards__row__card__title">Un interlocuteur dédié</h3>
+                        <p class="step-2__cards__row__card__content">Nous prenons le temps de vous connaître et de comprendre votre projet. Cette première rencontre est l'occasion pour vous de nous présenter votre idée et pour nous de mieux comprendre vos objectifs. Un conseiller est à votre écoute pour répondre à vos questions et vous donner les premières clés de réussite de votre projet.</p>
+                    </div>
+                    <div class="step-2__cards__row__card">
+                        <h3 class="step-2__cards__row__card__title">Donnez vie à votre projet</h3>
+                        <p class="step-2__cards__row__card__content">Notre expertise donne vie à votre projet grâce à une identité visuelle professionnelle et vous accompagnons dans le choix de votre nom, de votre logo et de votre charte graphique. Nous créons également une identité visuelle unique qui vous permettra de vous démarquer de vos concurrents et d'être identifiable rapidement.</p>
+                    </div>
+                </div>
+                <div class="step-2__cards__row">
+                    <div class="step-2__cards__row__card">
+                        <h3 class="step-2__cards__row__card__title">Un dossier de financement “clé en main”</h3>
+                        <p class="step-2__cards__row__card__content">Nous vous offrons un business plan complet avec tous les éléments clés pour réussir. Nos experts analysent votre marché, votre concurrence et vos besoins financiers. En vous aidant à définir votre stratégie commerciale et marketing, nous vous donnons tous les éléments pour convaincre vos partenaires financiers et pour réussir votre projet.</p>
+                    </div>
+                    <div class="step-2__cards__row__card">
+                        <h3 class="step-2__cards__row__card__title">Vous n’êtes pas seul(e)</h3>
+                        <p class="step-2__cards__row__card__content">Nous sommes là pour vous aider tout au long de votre parcours entrepreneurial. De plus, nous vous accompagnons dans toutes les étapes de la création et du développement de votre entreprise. Notre structure est à vos côtés pour vous aider à surmonter les obstacles et saisir les opportunités. Nous sommes votre partenaire de confiance pour réussir ensemble.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+    <div class="citation">
+            <div class="citation__quotes">66</div>
+            <div class="citation__picture">
+                <img src="assets/andreMalraux.jpg" alt="André Malraux, écrivain et homme politique français">
+            </div>
+            <div class="citation__content">
+                <p class="citation__content__text">Les idées ne sont pas faites pour être pensées, mais pour être vécues.</p>
+                <p class="citation__content__author"><span class="bold">André Malraux</span>, écrivain et homme politique français</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="offers">
+        <div class="anchor" id="offers"></div>
+        <div class="wrapper">
+            <h2>Choisissez votre offre</h2>
+            <div class="offers__cards">
+                <div class="offers__cards__card">
+                    <div class="offers__cards__card__head">
+                        <h3>Basique</h3>
+                    </div>
+                    <div class="offers__cards__card__pricing">
+                        <h3>480 €</h3>
+                        <p>Le meilleur prix</p>
+                    </div>
+                    <div class="offers__cards__card__content">
+                        <p>1ère rencontre gratuite</p>
+                        <p>Création de l’identité visuelle de votre structure</p>
+                        <p>Executive summary</p>
+                        <p>Business plan financier</p>
+                    </div>
+                    <a href="https://calendly.com/entre-prises/decouverte?month=2023-05" class="offers__cards__card__cta btn">Découvrir</a>
+                    
+                </div>
+                
+                <div class="offers__cards__card">
+                    <div class="offers__cards__card__badge">
+                        <img src="assets/icon_crown.svg" alt="Pro">
+                    </div>
+                    <div class="offers__cards__card__head">
+                        <h3>Pro</h3>
+                    </div>
+                    <div class="offers__cards__card__pricing">
+                        <h3>650 €</h3>
+                        <p>Le meilleur choix</p>
+                    </div>
+                    <div class="offers__cards__card__content">
+                        <p>1ère rencontre gratuite</p>
+                        <p>Création de l’identité visuelle de votre structure</p>
+                        <p>Executive summary</p>
+                        <p>Business plan financier</p>
+                        <p>Retouches et mises à jour du Business Plan ilimité</p>
+                        <p>Accompagnement sur le long terme</p>
+                    </div>
+                    <a href="https://calendly.com/entre-prises/decouverte?month=2023-05" class="offers__cards__card__cta btn">Découvrir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="your-project">
+        <h2>Parlons de votre projet</h2>
+        <p>Vous êtes à un clic de votre réussite !<br>
+            Prenez rendez-vous avec nous et ensemble, donnons vie à votre projet !</p>
+        <a href="https://calendly.com/entre-prises/decouverte?month=2023-05" class="your-project__cta light btn">Découvrir notre service</a>
+    </div>
+
+    <div class="about">
+        <div class="anchor" id="about"></div>
+        <div class="wrapper">
+            <h2>A Propos</h2>
+            <div class="about__container">
+                <img src="assets/about-picture.jpg" class="about__container__picture" alt="A Propos">
+                <div class="about__container__content">
+                    <h3>Qui sommes-nous ?</h3>
+                    <p><span class="bold">Qui de mieux pour accompagner votre projet qu’une structure aussi motivée que vous ?</span><br>Chez nous, vous trouverez une équipe de passionnés, experts dans leur domaine, qui mettent leur savoir-faire à votre service. Nous avons des spécialistes en marketing, en finance et en design graphique, qui travaillent en synergie pour vous offrir une solution complète et sur mesure pour votre entreprise. Nous sommes animés par la réussite de nos clients et nous sommes prêts à tout mettre en œuvre pour vous aider à réaliser vos objectifs, avec des services de qualité et un accompagnement personnalisé.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer__head">
+                <div class="logo">entre-prises</div>
+                <ul class="footer__head__socials">
+                    <li><a href="#"><img src="assets/social_linkedIn.svg" alt="LinkedIn"></a></li>
+                    <li><a href="#"><img src="assets/social_twitter.svg" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="assets/social_facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="assets/social_instagram.svg" alt="Instagram"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer__tail">
+                <p>© 2023 ENTRE-PRISES - Tous droits réservés.</p>
+                <a href="#" class="link">Mentions légales</a>
+                <a href="#" class="link">Politique de Confidentialité</a>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script>
+        function toggleMobileMenu() {
+            let isOpen = document.querySelector('#nav-bar--mobile__checkbox').checked;
+
+            if(isOpen) {
+                openMobileMenu();
+            }else {
+                closeMobileMenu();
+            }
+        }
+        
+        function openMobileMenu() {
+            document.querySelector('.nav-bar--mobile').style.height = '100vh';
+            document.querySelector('body').style.overflowY = 'hidden';
+        }
+        
+        function closeMobileMenu() {
+            document.querySelector('#nav-bar--mobile__checkbox').checked = false;
+            document.querySelector('body').style.overflowY = 'unset';
+            document.querySelector('.nav-bar--mobile').style.height = '100px';
+        }
+
+        window.addEventListener('scroll', event => {
+            if(scrollY > window.innerHeight) {
+                document.querySelector('header').style.borderBottom = '2px solid #6BAAFF';
+            }else {
+                document.querySelector('header').style.borderBottom = 'none';
+
+            }
+        });
+    </script>
+</body>
+
+
+</html>
